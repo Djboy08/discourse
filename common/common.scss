@@ -342,7 +342,11 @@ $group-styles: (
   game_moderators: (color: #9864e5),
   admin: (color: #E13D37),
   developer: (gradient: -webkit-linear-gradient(45deg, #d6f9e2, #00ff98)),
-  Forum_Admin: (color: #c7c7c7)
+  Forum_Admin: (color: #c7c7c7),
+  forum-president: (
+    gradient: linear-gradient(to right, #F22534 20%, #c21e2a 40%, #c21e2a 60%, #F22534 80%),
+    animated: true
+  ),
 );
 
 @mixin group-style($color: null, $gradient: null, $animated: false) {
