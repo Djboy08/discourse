@@ -323,13 +323,13 @@ pre code {
 }
 
 .first a {
-    color: #668699;   
+    color: #668699 !important;   
 }
 .group--Donator a {
-    color: #94FFFF;
+    color: #94FFFF !important;
 }
 .group--Group_Owners a {
-    color: #f1c40f;
+    color: #f1c40f !important;
 }
 .group--SupporterT1 a {
     // color: #ffd700;
@@ -352,16 +352,16 @@ pre code {
     -webkit-text-fill-color: transparent;
 }
 .group--clan-owner a {
-    color: #ed8b87;
+    color: #ed8b87 !important;
 }
 
 // Clans
 .group--crimson-crescent a {
-    color: #600000;
+    color: #600000 !important;
 }
 
 .group--the-dawn-order a {
-    color: #ADD8E6;
+    color: #ADD8E6 !important;
 }
 
 .group--celestial a {
@@ -394,20 +394,20 @@ pre code {
 }
 
 .group--artists a {
-    color: #b027c1;
+    color: #b027c1 !important;
 }
 .group--Tester a {
-    color: #1e8b4c;
+    color: #1e8b4c !important;
 }
 .moderator a {
-    color: #5c7cb8;   
+    color: #5c7cb8 !important;   
 }
 .group--game_moderators a {
     // color: #6599ff; (old blue colour!)
-    color: #9864e5;
+    color: #9864e5 !important;
 }
 .admin a {
-    color: #E13D37;
+    color: #E13D37 !important;
     // background:-webkit-linear-gradient(45deg,#f00, #d17400);
     // -webkit-background-clip: text;
     // -webkit-text-fill-color: transparent;
@@ -419,6 +419,6 @@ pre code {
     -webkit-text-fill-color: transparent;
 }
 .group--Forum_Admin a {
-    color: #c7c7c7;
+    color: #c7c7c7 !important;
 }
 
