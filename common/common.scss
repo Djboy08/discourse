@@ -322,106 +322,103 @@ pre code {
   }
 }
 
-.names {
-  .first a {
-      color: #668699;   
-  }
-  .group--Donator a {
-      color: #94FFFF;
-  }
-  .group--Group_Owners a{
-      color: #f1c40f;
-  }
-  .group--SupporterT1 a {
-      // color: #ffd700;
-      background:-webkit-linear-gradient(45deg, #ffe34b, #ffd700);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;        
-  }
-  .group--SupporterT2 a {
-      // color: #050505;
-      // background:-webkit-linear-gradient(#ffffff, #4a4a4a); (this is the old black/white gradient!)
-      background:-webkit-linear-gradient(45deg, #f68fb7, #ec4e8d);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  .group--SupporterT3 a {
-      // color: #cd5900;
-      // background:-webkit-linear-gradient(45deg, #ff9544, #cd5900); (this is the old orange gradient!)
-      background:-webkit-linear-gradient(45deg, #df7825, #dc9a51);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  .group--clan-owner a{
-      color: #ed8b87;
-  }
-  
-  
-  // Clans
-  .group--crimson-crescent a {
-      color: #600000;
-  }
-  
-  .group--the-dawn-order a {
-      color: #ADD8E6;
-  }
-  
-  .group--celestial a {
-      background:-webkit-linear-gradient(#620aa1, #A910E0);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  
-  .group--legendary-clan-owner a {
-    background: linear-gradient(to right, #F22534 20%, #c21e2a 40%, #c21e2a 60%, #F22534 80%);//#e89a3e, #e89a3e
-    background-size: 200% auto;
-
-    font-weight: 900;
-  // 	font-size: 5vw;
-    letter-spacing: -1px;
-    text-transform: uppercase;
+.first a {
+    color: #668699;   
+}
+.group--Donator a {
+    color: #94FFFF;
+}
+.group--Group_Owners a {
+    color: #f1c40f;
+}
+.group--SupporterT1 a {
+    // color: #ffd700;
+    background:-webkit-linear-gradient(45deg, #ffe34b, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;        
+}
+.group--SupporterT2 a {
+    // color: #050505;
+    // background:-webkit-linear-gradient(#ffffff, #4a4a4a); (this is the old black/white gradient!)
+    background:-webkit-linear-gradient(45deg, #f68fb7, #ec4e8d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animated_text 3s linear infinite;
-    -moz-animation: animated_text 3s linear infinite;
-    -webkit-animation: animated_text 3s linear infinite;
-  }
+}
+.group--SupporterT3 a {
+    // color: #cd5900;
+    // background:-webkit-linear-gradient(45deg, #ff9544, #cd5900); (this is the old orange gradient!)
+    background:-webkit-linear-gradient(45deg, #df7825, #dc9a51);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.group--clan-owner a {
+    color: #ed8b87;
+}
 
-  @keyframes animated_text {
-  
-    to {
-          background-position: 200% center;
-      }
-  
-  }
-  
-  .group--artists a{
-      color: #b027c1;
-  }
-  .group--Tester a {
-      color: #1e8b4c;
-  }
-  .moderator a {
-      color: #5c7cb8;   
-  }
-  .group--game_moderators a {
-      // color: #6599ff; (old blue colour!)
-      color: #9864e5;
-  }
-  .admin a{
-      color: #E13D37;
-      // background:-webkit-linear-gradient(45deg,#f00, #d17400);
-      // -webkit-background-clip: text;
-      // -webkit-text-fill-color: transparent;
-  }
-  .group--developer a {
-      // color: #FE7A15; (this is the old non-gradient orange colour!)
-             background:-webkit-linear-gradient(45deg, #d6f9e2, #00ff98);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  .group--Forum_Admin a{
-      color: #c7c7c7;
-  }
+// Clans
+.group--crimson-crescent a {
+    color: #600000;
+}
+
+.group--the-dawn-order a {
+    color: #ADD8E6;
+}
+
+.group--celestial a {
+    background:-webkit-linear-gradient(#620aa1, #A910E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.group--legendary-clan-owner a {
+  background: linear-gradient(to right, #F22534 20%, #c21e2a 40%, #c21e2a 60%, #F22534 80%);//#e89a3e, #e89a3e
+  background-size: 200% auto;
+
+  font-weight: 900;
+// 	font-size: 5vw;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 3s linear infinite;
+  -moz-animation: animated_text 3s linear infinite;
+  -webkit-animation: animated_text 3s linear infinite;
+}
+
+@keyframes animated_text {
+
+  to {
+        background-position: 200% center;
+    }
+
+}
+
+.group--artists a {
+    color: #b027c1;
+}
+.group--Tester a {
+    color: #1e8b4c;
+}
+.moderator a {
+    color: #5c7cb8;   
+}
+.group--game_moderators a {
+    // color: #6599ff; (old blue colour!)
+    color: #9864e5;
+}
+.admin a {
+    color: #E13D37;
+    // background:-webkit-linear-gradient(45deg,#f00, #d17400);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+}
+.group--developer a {
+    // color: #FE7A15; (this is the old non-gradient orange colour!)
+           background:-webkit-linear-gradient(45deg, #d6f9e2, #00ff98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.group--Forum_Admin a {
+    color: #c7c7c7;
 }
 
