@@ -321,7 +321,6 @@ pre code {
     }
   }
 }
-// 🎨 Define all group styles in one map (case-sensitive keys)
 $group-styles: (
   first: (color: #668699),
   Donator: (color: #94FFFF),
@@ -346,16 +345,15 @@ $group-styles: (
   Forum_Admin: (color: #c7c7c7)
 );
 
-// 🧩 Mixin for applying styles to a & span
 @mixin group-style($color: null, $gradient: null, $animated: false) {
   a, span {
-    @if $color {
-      color: $color !important;
-    }
     @if $gradient {
-      background: $gradient;
+      background: unquote($gradient); // ensure it's output exactly
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    @else if $color {
+      color: $color !important;
     }
     @if $animated {
       background-size: 200% auto;
@@ -369,7 +367,6 @@ $group-styles: (
   }
 }
 
-// 🎯 Loop through map and generate classes
 @each $name, $settings in $group-styles {
   .group--#{$name} {
     @include group-style(
@@ -380,7 +377,6 @@ $group-styles: (
   }
 }
 
-// ✨ Animation keyframes
 @keyframes animated_text {
   to {
     background-position: 200% center;
